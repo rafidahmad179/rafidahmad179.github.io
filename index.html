@@ -1,695 +1,1443 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Naledi Hollbruegge — Consulting Analyst</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <nav class="nav">
-      <a href="#hero" class="nav-link active" data-nav="home">Home</a>
-      <a href="#blog" class="nav-link" data-nav="blog">Blog</a>
-      <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Switch between light and dark mode">
-        <span class="theme-toggle-icon theme-toggle-sun" aria-hidden="true">☀</span>
-        <span class="theme-toggle-icon theme-toggle-moon" aria-hidden="true">☽</span>
-        <span class="theme-toggle-label" id="theme-toggle-label">Dark</span>
-      </button>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naledi Hollbruegge — Consulting Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="#hero" class="nav-link active" data-nav="home">Home</a>
+        <a href="#blog" class="nav-link" data-nav="blog">Blog</a>
+        <button
+          type="button"
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Toggle dark mode"
+          title="Switch between light and dark mode"
+        >
+          <span class="theme-toggle-icon theme-toggle-sun" aria-hidden="true"
+            >☀</span
+          >
+          <span class="theme-toggle-icon theme-toggle-moon" aria-hidden="true"
+            >☽</span
+          >
+          <span class="theme-toggle-label" id="theme-toggle-label">Dark</span>
+        </button>
+      </nav>
+    </header>
 
-  <main>
-    <section class="hero" id="hero">
-      <h1 class="hero-name">Naledi Hollbruegge</h1>
-      <p class="hero-title">Consulting Analyst</p>
-      <p class="hero-tagline">
-        Collect, process, analyse and present data - from supporting everyday business decisions to driving global change.
-      </p>
-      <a href="#contact" class="hero-cta">GET IN TOUCH</a>
-    </section>
-
-    <section class="services">
-      <article class="service">
-        <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 80 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="8" y="12" width="14" height="14" rx="2" stroke="#EA4335" stroke-width="2" fill="none"/>
-            <path d="M10 18l3 3 6-6" stroke="#EA4335" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-            <rect x="8" y="30" width="14" height="14" rx="2" stroke="#EA4335" stroke-width="2" fill="none"/>
-            <rect x="8" y="48" width="14" height="14" rx="2" stroke="#EA4335" stroke-width="2" fill="none"/>
-            <path d="M28 44L52 20l8 8-32 32H28V44z" stroke="#EA4335" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </div>
-        <h2 class="service-title">Collect</h2>
-        <p class="service-text">
-          Coming from a background in <strong>social psychology</strong> and <strong>social research</strong>, I have theoretical and practical knowledge in <strong>survey design</strong> and impact assessment. I have <strong>data collection</strong> and management experience with <strong>Kobo Toolbox, Qualtrics, Commcare</strong> and <strong>Airtable</strong>.
+    <main>
+      <section class="hero" id="hero">
+        <h1 class="hero-name">Rafid Ahmad</h1>
+        <p class="hero-title">Consulting Analyst</p>
+        <p class="hero-tagline">
+          Collect, process, analyse and present data - from supporting everyday
+          business decisions to driving global change.
         </p>
-      </article>
-      <article class="service">
-        <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="32" cy="32" r="14" stroke="#EA4335" stroke-width="2" fill="none"/>
-            <path d="M32 18v-4M32 50v-4M18 32h-4M50 32h-4M22.3 22.3l-2.8-2.8M44.5 44.5l2.8 2.8M22.3 41.7l-2.8 2.8M44.5 19.5l2.8-2.8" stroke="#EA4335" stroke-width="1.5"/>
-            <rect x="8" y="8" width="8" height="8" fill="#EA4335"/>
-            <rect x="48" y="8" width="8" height="8" fill="#EA4335"/>
-            <rect x="48" y="48" width="8" height="8" fill="#EA4335"/>
-            <line x1="16" y1="12" x2="28" y2="26" stroke="#EA4335" stroke-width="1"/>
-            <line x1="36" y1="36" x2="48" y2="52" stroke="#EA4335" stroke-width="1"/>
-            <line x1="52" y1="12" x2="36" y2="28" stroke="#EA4335" stroke-width="1"/>
-          </svg>
+        <a href="#contact" class="hero-cta">GET IN TOUCH</a>
+      </section>
+
+      <section class="services">
+        <article class="service">
+          <div class="service-icon" aria-hidden="true">
+            <svg
+              viewBox="0 0 80 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="8"
+                y="12"
+                width="14"
+                height="14"
+                rx="2"
+                stroke="#EA4335"
+                stroke-width="2"
+                fill="none"
+              />
+              <path
+                d="M10 18l3 3 6-6"
+                stroke="#EA4335"
+                stroke-width="1.5"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <rect
+                x="8"
+                y="30"
+                width="14"
+                height="14"
+                rx="2"
+                stroke="#EA4335"
+                stroke-width="2"
+                fill="none"
+              />
+              <rect
+                x="8"
+                y="48"
+                width="14"
+                height="14"
+                rx="2"
+                stroke="#EA4335"
+                stroke-width="2"
+                fill="none"
+              />
+              <path
+                d="M28 44L52 20l8 8-32 32H28V44z"
+                stroke="#EA4335"
+                stroke-width="2"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <h2 class="service-title">Collect</h2>
+          <p class="service-text">
+            Coming from a background in <strong>social psychology</strong> and
+            <strong>social research</strong>, I have theoretical and practical
+            knowledge in <strong>survey design</strong> and impact assessment. I
+            have <strong>data collection</strong> and management experience with
+            <strong>Kobo Toolbox, Qualtrics, Commcare</strong> and
+            <strong>Airtable</strong>.
+          </p>
+        </article>
+        <article class="service">
+          <div class="service-icon" aria-hidden="true">
+            <svg
+              viewBox="0 0 64 64"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="32"
+                cy="32"
+                r="14"
+                stroke="#EA4335"
+                stroke-width="2"
+                fill="none"
+              />
+              <path
+                d="M32 18v-4M32 50v-4M18 32h-4M50 32h-4M22.3 22.3l-2.8-2.8M44.5 44.5l2.8 2.8M22.3 41.7l-2.8 2.8M44.5 19.5l2.8-2.8"
+                stroke="#EA4335"
+                stroke-width="1.5"
+              />
+              <rect x="8" y="8" width="8" height="8" fill="#EA4335" />
+              <rect x="48" y="8" width="8" height="8" fill="#EA4335" />
+              <rect x="48" y="48" width="8" height="8" fill="#EA4335" />
+              <line
+                x1="16"
+                y1="12"
+                x2="28"
+                y2="26"
+                stroke="#EA4335"
+                stroke-width="1"
+              />
+              <line
+                x1="36"
+                y1="36"
+                x2="48"
+                y2="52"
+                stroke="#EA4335"
+                stroke-width="1"
+              />
+              <line
+                x1="52"
+                y1="12"
+                x2="36"
+                y2="28"
+                stroke="#EA4335"
+                stroke-width="1"
+              />
+            </svg>
+          </div>
+          <h2 class="service-title">Process</h2>
+          <p class="service-text">
+            As an <strong>Alteryx</strong> Designer Advanced Certified analyst I
+            can offer support on improving existing workflows and creation of
+            new processes, covering
+            <strong>data transformation, unification, spatial</strong> and
+            <strong>predictive analysis</strong>, and more.
+          </p>
+        </article>
+        <article class="service">
+          <div class="service-icon" aria-hidden="true">
+            <svg
+              viewBox="0 0 64 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="12" cy="40" r="3" fill="#EA4335" />
+              <circle cx="24" cy="34" r="3" fill="#EA4335" />
+              <circle cx="24" cy="40" r="3" fill="#EA4335" />
+              <circle cx="36" cy="28" r="3" fill="#EA4335" />
+              <circle cx="36" cy="34" r="3" fill="#EA4335" />
+              <circle cx="36" cy="40" r="3" fill="#EA4335" />
+              <circle cx="48" cy="16" r="3" fill="#EA4335" />
+              <circle cx="48" cy="22" r="3" fill="#EA4335" />
+              <circle cx="48" cy="28" r="3" fill="#EA4335" />
+              <circle cx="48" cy="34" r="3" fill="#EA4335" />
+              <circle cx="48" cy="40" r="3" fill="#EA4335" />
+              <line
+                x1="12"
+                y1="44"
+                x2="12"
+                y2="8"
+                stroke="#EA4335"
+                stroke-width="0.5"
+                stroke-dasharray="2 2"
+              />
+              <line
+                x1="12"
+                y1="44"
+                x2="56"
+                y2="44"
+                stroke="#EA4335"
+                stroke-width="0.5"
+              />
+            </svg>
+          </div>
+          <h2 class="service-title">Visualise</h2>
+          <p class="service-text">
+            I am a <strong>Tableau</strong> expert with extensive knowledge of
+            <strong>data visualisation best-practices</strong>. I have
+            experience creating <strong>interactive tools</strong> and
+            <strong>static infographics</strong> that can be consumed online or
+            in print. Besides Tableau I have worked primarily with
+            <strong>Power BI</strong> and <strong>Flourish</strong>.
+          </p>
+        </article>
+      </section>
+
+      <section class="about-full" id="about">
+        <div class="about-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1200&q=85"
+            alt="Naledi Hollbruegge"
+            class="about-image"
+          />
+          <div class="about-image-overlay" aria-hidden="true"></div>
         </div>
-        <h2 class="service-title">Process</h2>
-        <p class="service-text">
-          As an <strong>Alteryx</strong> Designer Advanced Certified analyst I can offer support on improving existing workflows and creation of new processes, covering <strong>data transformation, unification, spatial</strong> and <strong>predictive analysis</strong>, and more.
+        <div class="about-panel">
+          <div class="about-panel-inner">
+            <h2 class="about-panel-title">About me</h2>
+            <p class="about-panel-text">
+              I am Naledi, a consulting data analyst and social researcher
+              passionate about working with organisations that want to make
+              effective use of their data; from the first ideas around what you
+              want to measure and how to capture data accurately, through data
+              preparation, analysis and management, all the way to impactful
+              presentation of insights. I can support each step of the process
+              to enable your organisation in making evidence-driven decisions or
+              share insights with new audiences. I also offer training in
+              Tableau and data visualisation best practices.
+            </p>
+            <p class="about-panel-text">
+              I am available for short-term projects and part-time longer-term
+              engagements.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <h2 class="portfolio-heading">Portfolio</h2>
+        <p class="portfolio-subtitle">A sample of my work</p>
+        <div
+          class="portfolio-filters"
+          role="group"
+          aria-label="Filter projects by industry"
+        >
+          <button
+            type="button"
+            class="portfolio-filter-btn is-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button
+            type="button"
+            class="portfolio-filter-btn"
+            data-filter="finance-banking"
+          >
+            Finance &amp; Banking
+          </button>
+          <button
+            type="button"
+            class="portfolio-filter-btn"
+            data-filter="retail"
+          >
+            Retail
+          </button>
+          <button
+            type="button"
+            class="portfolio-filter-btn"
+            data-filter="healthcare"
+          >
+            Healthcare
+          </button>
+          <button
+            type="button"
+            class="portfolio-filter-btn"
+            data-filter="geospatial"
+          >
+            Geospatial (GIS)
+          </button>
+          <button
+            type="button"
+            class="portfolio-filter-btn"
+            data-filter="others"
+          >
+            Others
+          </button>
+        </div>
+        <div class="portfolio-gallery">
+          <!-- Sustrans -->
+          <a
+            href="#"
+            class="project-card-link project-card-link--wide"
+            data-project="sustrans"
+            data-category="others"
+          >
+            <article class="project-card project-card--wide">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80"
+                  alt="Sustrans – survey data dashboard"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Sustrans</span>
+                  <span class="project-overlay-desc"
+                    >A tool for policy-makers to explore complex survey
+                    data.</span
+                  >
+                  <span class="project-overlay-tech"
+                    >Created with Power BI.</span
+                  >
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Sustrans</h3>
+                <p class="project-desc">
+                  A tool for policy-makers to explore complex survey data.
+                  Compare cities & districts. Created with Power BI.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Operation Fistula -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="operation-fistula"
+            data-category="healthcare"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&q=80"
+                  alt="Operation Fistula – map"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Operation Fistula</span>
+                  <span class="project-overlay-desc"
+                    >Visualising estimates of obstetric fistula prevalence based
+                    on an academic research paper.</span
+                  >
+                  <span class="project-overlay-tech">Mapbox · Tableau</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Operation Fistula</h3>
+                <p class="project-desc">
+                  Visualising estimates of obstetric fistula prevalence based on
+                  an academic research paper.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Migrant Deaths Mediterranean -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="migrant-deaths"
+            data-category="geospatial"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=600&q=80"
+                  alt="Migrant Deaths in the Mediterranean"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title"
+                    >Migrant Deaths in the Mediterranean</span
+                  >
+                  <span class="project-overlay-desc"
+                    >Using Mapbox and Tableau to raise awareness of migrant
+                    deaths.</span
+                  >
+                  <span class="project-overlay-tech"
+                    >Mapbox · Tableau · Awarded "Viz of the Day"</span
+                  >
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Personal Project</h3>
+                <p class="project-desc">
+                  Using Mapbox and Tableau to raise awareness of migrant deaths.
+                  Awarded "Viz of the Day".
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- WMO Power BI -->
+          <a
+            href="#"
+            class="project-card-link project-card-link--wide"
+            data-project="wmo"
+            data-category="geospatial"
+          >
+            <article class="project-card project-card--wide">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80"
+                  alt="WMO Power BI dashboard"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title"
+                    >World Meteorological Organization</span
+                  >
+                  <span class="project-overlay-desc"
+                    >Power BI tool for the Monitoring & Evaluation of the Early
+                    Warnings For All initiative.</span
+                  >
+                  <span class="project-overlay-tech"
+                    >Created with Power BI.</span
+                  >
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">World Meteorological Organization</h3>
+                <p class="project-desc">
+                  Power BI tool for the Monitoring & Evaluation of the Early
+                  Warnings For All initiative.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Direct Relief -->
+          <a
+            href="#"
+            class="project-card-link project-card-link--wide"
+            data-project="direct-relief"
+            data-category="healthcare"
+          >
+            <article class="project-card project-card--wide">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80"
+                  alt="Direct Relief – data engagement"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Direct Relief</span>
+                  <span class="project-overlay-desc"
+                    >Interactive tool to explore where clinical data collection
+                    about obstetric fistula is most successful.</span
+                  >
+                  <span class="project-overlay-tech"
+                    >Tableau · Global Fistula Map</span
+                  >
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Direct Relief</h3>
+                <p class="project-desc">
+                  Interactive tool to explore where clinical data collection
+                  about obstetric fistula is most successful.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Equal Measures 2030 -->
+          <a
+            href="#"
+            class="project-card-link project-card-link--wide"
+            data-project="equal-measures"
+            data-category="others"
+          >
+            <article class="project-card project-card--wide">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80"
+                  alt="Equal Measures 2030"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Equal Measures 2030</span>
+                  <span class="project-overlay-desc"
+                    >Policy makers' knowledge on gender issues. Featured in
+                    "Makeover Monday".</span
+                  >
+                  <span class="project-overlay-tech"
+                    >Tableau · International Day of the Girl 2019</span
+                  >
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Equal Measures 2030</h3>
+                <p class="project-desc">
+                  Policy makers' knowledge on gender issues. Featured in
+                  "Makeover Monday".
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Capgemini -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="capgemini"
+            data-category="finance-banking"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&q=80"
+                  alt="Capgemini – digitalization dashboard"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Capgemini</span>
+                  <span class="project-overlay-desc"
+                    >Advised on survey visualisation and technical Tableau for
+                    IT-trends report 2018.</span
+                  >
+                  <span class="project-overlay-tech"
+                    >Created with Tableau · Project in German</span
+                  >
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Capgemini</h3>
+                <p class="project-desc">
+                  Advised on survey visualisation and technical Tableau for
+                  IT-trends report 2018. Project in German.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- My Year in Books -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="my-year-in-books"
+            data-category="others"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80"
+                  alt="My Year in Books"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">My Year in Books</span>
+                  <span class="project-overlay-desc"
+                    >Self-quantification: books read, infographic style inspired
+                    by Nicholas Felton.</span
+                  >
+                  <span class="project-overlay-tech">Personal Project</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Personal Project</h3>
+                <p class="project-desc">
+                  Self-quantification: books read, infographic style inspired by
+                  Nicholas Felton.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Operation Fistula API -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="operation-fistula-api"
+            data-category="healthcare"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80"
+                  alt="Operation Fistula – Alteryx API"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Operation Fistula</span>
+                  <span class="project-overlay-desc"
+                    >Alteryx macro that uses an API to extract data from
+                    Airtable.</span
+                  >
+                  <span class="project-overlay-tech"
+                    >Alteryx · Airtable API</span
+                  >
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Operation Fistula</h3>
+                <p class="project-desc">
+                  Alteryx macro that uses an API to extract data from Airtable.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- UNDP -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="undp"
+            data-category="others"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1543286386-713bdd548da4?w=600&q=80"
+                  alt="UNDP Climate Report"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">UNDP</span>
+                  <span class="project-overlay-desc"
+                    >An animated data story to present the findings of a UNDP
+                    climate report.</span
+                  >
+                  <span class="project-overlay-tech"
+                    >Created with Flourish.</span
+                  >
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">UNDP</h3>
+                <p class="project-desc">
+                  An animated data story built with Flourish to present the
+                  findings of a UNDP climate report.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Finance & Banking: 4 more -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="risk-dashboard"
+            data-category="finance-banking"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&q=80"
+                  alt="Risk dashboard"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Risk Dashboard</span>
+                  <span class="project-overlay-desc"
+                    >Real-time credit and market risk metrics for treasury
+                    teams.</span
+                  >
+                  <span class="project-overlay-tech">Power BI · SQL</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Risk Dashboard</h3>
+                <p class="project-desc">
+                  Real-time credit and market risk metrics for treasury teams.
+                  Power BI · SQL.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="trading-analytics"
+            data-category="finance-banking"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80"
+                  alt="Trading analytics"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Trading Analytics</span>
+                  <span class="project-overlay-desc"
+                    >Execution quality and P&amp;L views for asset
+                    managers.</span
+                  >
+                  <span class="project-overlay-tech">Tableau · Python</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Trading Analytics</h3>
+                <p class="project-desc">
+                  Execution quality and P&amp;L views for asset managers.
+                  Tableau · Python.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="loan-portfolio"
+            data-category="finance-banking"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80"
+                  alt="Loan portfolio"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Loan Portfolio View</span>
+                  <span class="project-overlay-desc"
+                    >Portfolio composition, delinquency and provisioning by
+                    segment.</span
+                  >
+                  <span class="project-overlay-tech">Power BI · Alteryx</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Loan Portfolio View</h3>
+                <p class="project-desc">
+                  Portfolio composition, delinquency and provisioning by
+                  segment. Power BI · Alteryx.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="regulatory-report"
+            data-category="finance-banking"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80"
+                  alt="Regulatory report"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title"
+                    >Regulatory Report Pack</span
+                  >
+                  <span class="project-overlay-desc"
+                    >Automated regulatory and board reporting with
+                    drill-through.</span
+                  >
+                  <span class="project-overlay-tech">Power BI · SSRS</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Regulatory Report Pack</h3>
+                <p class="project-desc">
+                  Automated regulatory and board reporting with drill-through.
+                  Power BI · SSRS.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Retail: 5 -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="store-performance"
+            data-category="retail"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80"
+                  alt="Store performance"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Store Performance</span>
+                  <span class="project-overlay-desc"
+                    >Sales, footfall and conversion by store and region.</span
+                  >
+                  <span class="project-overlay-tech">Tableau · Excel</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Store Performance</h3>
+                <p class="project-desc">
+                  Sales, footfall and conversion by store and region. Tableau ·
+                  Excel.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="ecommerce-dashboard"
+            data-category="retail"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1556742111-a301076d9d18?w=600&q=80"
+                  alt="E-commerce dashboard"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title"
+                    >E-commerce Dashboard</span
+                  >
+                  <span class="project-overlay-desc"
+                    >Online revenue, basket size and channel mix.</span
+                  >
+                  <span class="project-overlay-tech"
+                    >Power BI · Google Analytics</span
+                  >
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">E-commerce Dashboard</h3>
+                <p class="project-desc">
+                  Online revenue, basket size and channel mix. Power BI · Google
+                  Analytics.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="inventory-viz"
+            data-category="retail"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=600&q=80"
+                  alt="Inventory viz"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title"
+                    >Inventory &amp; Stock</span
+                  >
+                  <span class="project-overlay-desc"
+                    >Stock levels, turnover and reorder points by SKU and
+                    warehouse.</span
+                  >
+                  <span class="project-overlay-tech">Tableau · SAP</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Inventory &amp; Stock</h3>
+                <p class="project-desc">
+                  Stock levels, turnover and reorder points by SKU and
+                  warehouse. Tableau · SAP.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="customer-segments"
+            data-category="retail"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&q=80"
+                  alt="Customer segments"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Customer Segments</span>
+                  <span class="project-overlay-desc"
+                    >RFM and cohort analysis for marketing and loyalty.</span
+                  >
+                  <span class="project-overlay-tech">Power BI · Python</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Customer Segments</h3>
+                <p class="project-desc">
+                  RFM and cohort analysis for marketing and loyalty. Power BI ·
+                  Python.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="sales-region"
+            data-category="retail"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1556740758-90de374c12ad?w=600&q=80"
+                  alt="Sales by region"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Sales by Region</span>
+                  <span class="project-overlay-desc"
+                    >Geographic and time-based sales analysis with
+                    targets.</span
+                  >
+                  <span class="project-overlay-tech">Tableau · Mapbox</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Sales by Region</h3>
+                <p class="project-desc">
+                  Geographic and time-based sales analysis with targets. Tableau
+                  · Mapbox.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Healthcare: 2 more -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="patient-outcomes"
+            data-category="healthcare"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1579154204200-7d2f2450b4d4?w=600&q=80"
+                  alt="Patient outcomes"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Patient Outcomes</span>
+                  <span class="project-overlay-desc"
+                    >Readmission rates, length of stay and outcome metrics by
+                    pathway.</span
+                  >
+                  <span class="project-overlay-tech">Power BI · NHS data</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Patient Outcomes</h3>
+                <p class="project-desc">
+                  Readmission rates, length of stay and outcome metrics by
+                  pathway. Power BI · NHS data.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="vaccine-coverage"
+            data-category="healthcare"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1584483766114-2cea6facdf57?w=600&q=80"
+                  alt="Vaccine coverage"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Vaccine Coverage</span>
+                  <span class="project-overlay-desc"
+                    >Immunisation uptake by region and demographic for public
+                    health.</span
+                  >
+                  <span class="project-overlay-tech">Tableau · Flourish</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Vaccine Coverage</h3>
+                <p class="project-desc">
+                  Immunisation uptake by region and demographic for public
+                  health. Tableau · Flourish.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Geospatial: 3 more -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="regional-map"
+            data-category="geospatial"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&q=80"
+                  alt="Regional map"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title"
+                    >Regional Coverage Map</span
+                  >
+                  <span class="project-overlay-desc"
+                    >Service coverage and gaps across districts with demographic
+                    overlay.</span
+                  >
+                  <span class="project-overlay-tech">QGIS · Tableau</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Regional Coverage Map</h3>
+                <p class="project-desc">
+                  Service coverage and gaps across districts with demographic
+                  overlay. QGIS · Tableau.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="flood-risk"
+            data-category="geospatial"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=600&q=80"
+                  alt="Flood risk"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Flood Risk Zones</span>
+                  <span class="project-overlay-desc"
+                    >Flood hazard and exposure mapping for planning and
+                    insurance.</span
+                  >
+                  <span class="project-overlay-tech">ArcGIS · Python</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Flood Risk Zones</h3>
+                <p class="project-desc">
+                  Flood hazard and exposure mapping for planning and insurance.
+                  ArcGIS · Python.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="transport-network"
+            data-category="geospatial"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&q=80"
+                  alt="Transport network"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title">Transport Network</span>
+                  <span class="project-overlay-desc"
+                    >Routes, demand and capacity visualisation for urban
+                    transport.</span
+                  >
+                  <span class="project-overlay-tech">Mapbox · Tableau</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Transport Network</h3>
+                <p class="project-desc">
+                  Routes, demand and capacity visualisation for urban transport.
+                  Mapbox · Tableau.
+                </p>
+              </div>
+            </article>
+          </a>
+
+          <!-- Others: 2 more -->
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="annual-report"
+            data-category="others"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1543286386-713bdd548da4?w=600&q=80"
+                  alt="Annual report"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title"
+                    >Annual Report Infographic</span
+                  >
+                  <span class="project-overlay-desc"
+                    >Key metrics and impact visualisations for an NGO annual
+                    report.</span
+                  >
+                  <span class="project-overlay-tech"
+                    >Illustrator · Tableau</span
+                  >
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">Annual Report Infographic</h3>
+                <p class="project-desc">
+                  Key metrics and impact visualisations for an NGO annual
+                  report. Illustrator · Tableau.
+                </p>
+              </div>
+            </article>
+          </a>
+          <a
+            href="#"
+            class="project-card-link"
+            data-project="ngo-dashboard"
+            data-category="others"
+          >
+            <article class="project-card">
+              <div class="project-visual">
+                <img
+                  class="project-img"
+                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80"
+                  alt="NGO dashboard"
+                />
+                <div class="project-hover-overlay">
+                  <span class="project-overlay-title"
+                    >NGO Programme Dashboard</span
+                  >
+                  <span class="project-overlay-desc"
+                    >Outputs, outcomes and beneficiary reach for programme
+                    teams.</span
+                  >
+                  <span class="project-overlay-tech">Power BI · Commcare</span>
+                </div>
+              </div>
+              <div class="project-card-body">
+                <h3 class="project-title">NGO Programme Dashboard</h3>
+                <p class="project-desc">
+                  Outputs, outcomes and beneficiary reach for programme teams.
+                  Power BI · Commcare.
+                </p>
+              </div>
+            </article>
+          </a>
+        </div>
+      </section>
+
+      <section class="testimonial">
+        <div class="testimonial-inner">
+          <blockquote class="testimonial-quote">
+            It's been great working with you, from the very first conversation
+            scoping the project to delivering the final product. You were
+            extremely quick to understand our objectives as well as our rather
+            cumbersome dataset and you very much added to our initial thinking
+            about what the viz can look like/be able to do. Communication was
+            consistently clear and prompt, making the whole process very easy to
+            manage for us. For what it's worth, I hope we get the chance to do
+            more of this together in the future, as our plans develop.
+          </blockquote>
+          <footer class="testimonial-attribution">
+            <cite class="testimonial-name"
+              ><a href="#" rel="noopener">Tamara Baleanu</a></cite
+            >
+            <p class="testimonial-role">Investment Manager at Impetus</p>
+          </footer>
+        </div>
+      </section>
+
+      <section class="blog-cta" id="blog">
+        <div class="blog-header">
+          <h2 class="blog-heading">Blog</h2>
+          <a href="#" class="blog-all-posts">ALL BLOG POSTS</a>
+        </div>
+        <div class="blog-posts">
+          <article class="blog-post">
+            <a href="#" class="blog-post-link">
+              <div class="blog-post-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80"
+                  alt=""
+                  class="blog-post-image"
+                />
+              </div>
+              <div class="blog-post-body">
+                <time class="blog-post-date" datetime="2024-01-15"
+                  >15 Jan 2024</time
+                >
+                <h3 class="blog-post-title">
+                  Getting started with APIs: REST vs GraphQL
+                </h3>
+                <p class="blog-post-excerpt">
+                  A practical comparison of REST and GraphQL — when to use each
+                  and how to integrate them in your stack.
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="blog-post">
+            <a href="#" class="blog-post-link">
+              <div class="blog-post-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
+                  alt=""
+                  class="blog-post-image"
+                />
+              </div>
+              <div class="blog-post-body">
+                <time class="blog-post-date" datetime="2024-01-08"
+                  >8 Jan 2024</time
+                >
+                <h3 class="blog-post-title">
+                  Building a side project with AI tools in 2024
+                </h3>
+                <p class="blog-post-excerpt">
+                  How to use Copilot, ChatGPT, and other AI assistants to ship
+                  faster without sacrificing code quality.
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="blog-post">
+            <a href="#" class="blog-post-link">
+              <div class="blog-post-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80"
+                  alt=""
+                  class="blog-post-image"
+                />
+              </div>
+              <div class="blog-post-body">
+                <time class="blog-post-date" datetime="2023-12-20"
+                  >20 Dec 2023</time
+                >
+                <h3 class="blog-post-title">
+                  Why your team should adopt TypeScript
+                </h3>
+                <p class="blog-post-excerpt">
+                  Fewer bugs, better refactors, and clearer contracts. A short
+                  case for moving from JavaScript to TypeScript.
+                </p>
+              </div>
+            </a>
+          </article>
+          <article class="blog-post">
+            <a href="#" class="blog-post-link">
+              <div class="blog-post-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80"
+                  alt=""
+                  class="blog-post-image"
+                />
+              </div>
+              <div class="blog-post-body">
+                <time class="blog-post-date" datetime="2023-12-05"
+                  >5 Dec 2023</time
+                >
+                <h3 class="blog-post-title">
+                  DevOps basics: CI/CD pipelines that actually work
+                </h3>
+                <p class="blog-post-excerpt">
+                  From GitHub Actions to deployment — set up a simple pipeline
+                  so you ship with confidence.
+                </p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="blog-content">
+          <div class="blog-left">
+            <h3 class="blog-coming">Coming soon</h3>
+            <p class="blog-text">
+              Want to learn what makes a data visualisation go from good to
+              great? I am working on creating an online course and I think you
+              will love it. Sign up here to be the first to hear about updates
+              and access special early adopter offers.
+            </p>
+            <p class="blog-privacy">
+              Your data belongs to you: I won't use your email for anything else
+              and you can unsubscribe at any time.
+            </p>
+            <form class="newsletter-form" action="#" method="post">
+              <label for="newsletter-email" class="blog-label">Email</label>
+              <input
+                type="email"
+                id="newsletter-email"
+                name="email"
+                placeholder="Email"
+                required
+                class="blog-input"
+              />
+              <button type="submit" class="btn btn-blog">
+                KEEP ME UPDATED
+              </button>
+            </form>
+          </div>
+          <div class="blog-image-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=700&q=80"
+              alt=""
+              class="blog-image"
+            />
+          </div>
+        </div>
+        <hr class="blog-divider" />
+      </section>
+
+      <section class="contact" id="contact">
+        <h2 class="contact-heading">Get in touch</h2>
+        <p class="contact-intro">
+          Do you have a project I can help you with? Let's talk about it.
         </p>
-      </article>
-      <article class="service">
-        <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 64 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="12" cy="40" r="3" fill="#EA4335"/>
-            <circle cx="24" cy="34" r="3" fill="#EA4335"/>
-            <circle cx="24" cy="40" r="3" fill="#EA4335"/>
-            <circle cx="36" cy="28" r="3" fill="#EA4335"/>
-            <circle cx="36" cy="34" r="3" fill="#EA4335"/>
-            <circle cx="36" cy="40" r="3" fill="#EA4335"/>
-            <circle cx="48" cy="16" r="3" fill="#EA4335"/>
-            <circle cx="48" cy="22" r="3" fill="#EA4335"/>
-            <circle cx="48" cy="28" r="3" fill="#EA4335"/>
-            <circle cx="48" cy="34" r="3" fill="#EA4335"/>
-            <circle cx="48" cy="40" r="3" fill="#EA4335"/>
-            <line x1="12" y1="44" x2="12" y2="8" stroke="#EA4335" stroke-width="0.5" stroke-dasharray="2 2"/>
-            <line x1="12" y1="44" x2="56" y2="44" stroke="#EA4335" stroke-width="0.5"/>
-          </svg>
-        </div>
-        <h2 class="service-title">Visualise</h2>
-        <p class="service-text">
-          I am a <strong>Tableau</strong> expert with extensive knowledge of <strong>data visualisation best-practices</strong>. I have experience creating <strong>interactive tools</strong> and <strong>static infographics</strong> that can be consumed online or in print. Besides Tableau I have worked primarily with <strong>Power BI</strong> and <strong>Flourish</strong>.
-        </p>
-      </article>
-    </section>
-
-    <section class="about-full" id="about">
-      <div class="about-image-wrap">
-        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1200&q=85" alt="Naledi Hollbruegge" class="about-image" />
-        <div class="about-image-overlay" aria-hidden="true"></div>
-      </div>
-      <div class="about-panel">
-        <div class="about-panel-inner">
-          <h2 class="about-panel-title">About me</h2>
-          <p class="about-panel-text">
-            I am Naledi, a consulting data analyst and social researcher passionate about working with organisations that want to make effective use of their data; from the first ideas around what you want to measure and how to capture data accurately, through data preparation, analysis and management, all the way to impactful presentation of insights. I can support each step of the process to enable your organisation in making evidence-driven decisions or share insights with new audiences. I also offer training in Tableau and data visualisation best practices.
-          </p>
-          <p class="about-panel-text">
-            I am available for short-term projects and part-time longer-term engagements.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-      <h2 class="portfolio-heading">Portfolio</h2>
-      <p class="portfolio-subtitle">A sample of my work</p>
-      <div class="portfolio-filters" role="group" aria-label="Filter projects by industry">
-        <button type="button" class="portfolio-filter-btn is-active" data-filter="all">All</button>
-        <button type="button" class="portfolio-filter-btn" data-filter="finance-banking">Finance &amp; Banking</button>
-        <button type="button" class="portfolio-filter-btn" data-filter="retail">Retail</button>
-        <button type="button" class="portfolio-filter-btn" data-filter="healthcare">Healthcare</button>
-        <button type="button" class="portfolio-filter-btn" data-filter="geospatial">Geospatial (GIS)</button>
-        <button type="button" class="portfolio-filter-btn" data-filter="others">Others</button>
-      </div>
-      <div class="portfolio-gallery">
-        <!-- Sustrans -->
-        <a href="#" class="project-card-link project-card-link--wide" data-project="sustrans" data-category="others">
-          <article class="project-card project-card--wide">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80" alt="Sustrans – survey data dashboard" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Sustrans</span>
-                <span class="project-overlay-desc">A tool for policy-makers to explore complex survey data.</span>
-                <span class="project-overlay-tech">Created with Power BI.</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Sustrans</h3>
-              <p class="project-desc">A tool for policy-makers to explore complex survey data. Compare cities & districts. Created with Power BI.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Operation Fistula -->
-        <a href="#" class="project-card-link" data-project="operation-fistula" data-category="healthcare">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&q=80" alt="Operation Fistula – map" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Operation Fistula</span>
-                <span class="project-overlay-desc">Visualising estimates of obstetric fistula prevalence based on an academic research paper.</span>
-                <span class="project-overlay-tech">Mapbox · Tableau</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Operation Fistula</h3>
-              <p class="project-desc">Visualising estimates of obstetric fistula prevalence based on an academic research paper.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Migrant Deaths Mediterranean -->
-        <a href="#" class="project-card-link" data-project="migrant-deaths" data-category="geospatial">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=600&q=80" alt="Migrant Deaths in the Mediterranean" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Migrant Deaths in the Mediterranean</span>
-                <span class="project-overlay-desc">Using Mapbox and Tableau to raise awareness of migrant deaths.</span>
-                <span class="project-overlay-tech">Mapbox · Tableau · Awarded "Viz of the Day"</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Personal Project</h3>
-              <p class="project-desc">Using Mapbox and Tableau to raise awareness of migrant deaths. Awarded "Viz of the Day".</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- WMO Power BI -->
-        <a href="#" class="project-card-link project-card-link--wide" data-project="wmo" data-category="geospatial">
-          <article class="project-card project-card--wide">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80" alt="WMO Power BI dashboard" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">World Meteorological Organization</span>
-                <span class="project-overlay-desc">Power BI tool for the Monitoring & Evaluation of the Early Warnings For All initiative.</span>
-                <span class="project-overlay-tech">Created with Power BI.</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">World Meteorological Organization</h3>
-              <p class="project-desc">Power BI tool for the Monitoring & Evaluation of the Early Warnings For All initiative.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Direct Relief -->
-        <a href="#" class="project-card-link project-card-link--wide" data-project="direct-relief" data-category="healthcare">
-          <article class="project-card project-card--wide">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80" alt="Direct Relief – data engagement" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Direct Relief</span>
-                <span class="project-overlay-desc">Interactive tool to explore where clinical data collection about obstetric fistula is most successful.</span>
-                <span class="project-overlay-tech">Tableau · Global Fistula Map</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Direct Relief</h3>
-              <p class="project-desc">Interactive tool to explore where clinical data collection about obstetric fistula is most successful.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Equal Measures 2030 -->
-        <a href="#" class="project-card-link project-card-link--wide" data-project="equal-measures" data-category="others">
-          <article class="project-card project-card--wide">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80" alt="Equal Measures 2030" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Equal Measures 2030</span>
-                <span class="project-overlay-desc">Policy makers' knowledge on gender issues. Featured in "Makeover Monday".</span>
-                <span class="project-overlay-tech">Tableau · International Day of the Girl 2019</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Equal Measures 2030</h3>
-              <p class="project-desc">Policy makers' knowledge on gender issues. Featured in "Makeover Monday".</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Capgemini -->
-        <a href="#" class="project-card-link" data-project="capgemini" data-category="finance-banking">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1553877522-43269d4ea984?w=600&q=80" alt="Capgemini – digitalization dashboard" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Capgemini</span>
-                <span class="project-overlay-desc">Advised on survey visualisation and technical Tableau for IT-trends report 2018.</span>
-                <span class="project-overlay-tech">Created with Tableau · Project in German</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Capgemini</h3>
-              <p class="project-desc">Advised on survey visualisation and technical Tableau for IT-trends report 2018. Project in German.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- My Year in Books -->
-        <a href="#" class="project-card-link" data-project="my-year-in-books" data-category="others">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&q=80" alt="My Year in Books" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">My Year in Books</span>
-                <span class="project-overlay-desc">Self-quantification: books read, infographic style inspired by Nicholas Felton.</span>
-                <span class="project-overlay-tech">Personal Project</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Personal Project</h3>
-              <p class="project-desc">Self-quantification: books read, infographic style inspired by Nicholas Felton.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Operation Fistula API -->
-        <a href="#" class="project-card-link" data-project="operation-fistula-api" data-category="healthcare">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80" alt="Operation Fistula – Alteryx API" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Operation Fistula</span>
-                <span class="project-overlay-desc">Alteryx macro that uses an API to extract data from Airtable.</span>
-                <span class="project-overlay-tech">Alteryx · Airtable API</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Operation Fistula</h3>
-              <p class="project-desc">Alteryx macro that uses an API to extract data from Airtable.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- UNDP -->
-        <a href="#" class="project-card-link" data-project="undp" data-category="others">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1543286386-713bdd548da4?w=600&q=80" alt="UNDP Climate Report" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">UNDP</span>
-                <span class="project-overlay-desc">An animated data story to present the findings of a UNDP climate report.</span>
-                <span class="project-overlay-tech">Created with Flourish.</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">UNDP</h3>
-              <p class="project-desc">An animated data story built with Flourish to present the findings of a UNDP climate report.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Finance & Banking: 4 more -->
-        <a href="#" class="project-card-link" data-project="risk-dashboard" data-category="finance-banking">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=600&q=80" alt="Risk dashboard" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Risk Dashboard</span>
-                <span class="project-overlay-desc">Real-time credit and market risk metrics for treasury teams.</span>
-                <span class="project-overlay-tech">Power BI · SQL</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Risk Dashboard</h3>
-              <p class="project-desc">Real-time credit and market risk metrics for treasury teams. Power BI · SQL.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="trading-analytics" data-category="finance-banking">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&q=80" alt="Trading analytics" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Trading Analytics</span>
-                <span class="project-overlay-desc">Execution quality and P&amp;L views for asset managers.</span>
-                <span class="project-overlay-tech">Tableau · Python</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Trading Analytics</h3>
-              <p class="project-desc">Execution quality and P&amp;L views for asset managers. Tableau · Python.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="loan-portfolio" data-category="finance-banking">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Loan portfolio" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Loan Portfolio View</span>
-                <span class="project-overlay-desc">Portfolio composition, delinquency and provisioning by segment.</span>
-                <span class="project-overlay-tech">Power BI · Alteryx</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Loan Portfolio View</h3>
-              <p class="project-desc">Portfolio composition, delinquency and provisioning by segment. Power BI · Alteryx.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="regulatory-report" data-category="finance-banking">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Regulatory report" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Regulatory Report Pack</span>
-                <span class="project-overlay-desc">Automated regulatory and board reporting with drill-through.</span>
-                <span class="project-overlay-tech">Power BI · SSRS</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Regulatory Report Pack</h3>
-              <p class="project-desc">Automated regulatory and board reporting with drill-through. Power BI · SSRS.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Retail: 5 -->
-        <a href="#" class="project-card-link" data-project="store-performance" data-category="retail">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Store performance" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Store Performance</span>
-                <span class="project-overlay-desc">Sales, footfall and conversion by store and region.</span>
-                <span class="project-overlay-tech">Tableau · Excel</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Store Performance</h3>
-              <p class="project-desc">Sales, footfall and conversion by store and region. Tableau · Excel.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="ecommerce-dashboard" data-category="retail">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1556742111-a301076d9d18?w=600&q=80" alt="E-commerce dashboard" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">E-commerce Dashboard</span>
-                <span class="project-overlay-desc">Online revenue, basket size and channel mix.</span>
-                <span class="project-overlay-tech">Power BI · Google Analytics</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">E-commerce Dashboard</h3>
-              <p class="project-desc">Online revenue, basket size and channel mix. Power BI · Google Analytics.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="inventory-viz" data-category="retail">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=600&q=80" alt="Inventory viz" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Inventory &amp; Stock</span>
-                <span class="project-overlay-desc">Stock levels, turnover and reorder points by SKU and warehouse.</span>
-                <span class="project-overlay-tech">Tableau · SAP</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Inventory &amp; Stock</h3>
-              <p class="project-desc">Stock levels, turnover and reorder points by SKU and warehouse. Tableau · SAP.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="customer-segments" data-category="retail">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&q=80" alt="Customer segments" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Customer Segments</span>
-                <span class="project-overlay-desc">RFM and cohort analysis for marketing and loyalty.</span>
-                <span class="project-overlay-tech">Power BI · Python</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Customer Segments</h3>
-              <p class="project-desc">RFM and cohort analysis for marketing and loyalty. Power BI · Python.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="sales-region" data-category="retail">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1556740758-90de374c12ad?w=600&q=80" alt="Sales by region" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Sales by Region</span>
-                <span class="project-overlay-desc">Geographic and time-based sales analysis with targets.</span>
-                <span class="project-overlay-tech">Tableau · Mapbox</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Sales by Region</h3>
-              <p class="project-desc">Geographic and time-based sales analysis with targets. Tableau · Mapbox.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Healthcare: 2 more -->
-        <a href="#" class="project-card-link" data-project="patient-outcomes" data-category="healthcare">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1579154204200-7d2f2450b4d4?w=600&q=80" alt="Patient outcomes" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Patient Outcomes</span>
-                <span class="project-overlay-desc">Readmission rates, length of stay and outcome metrics by pathway.</span>
-                <span class="project-overlay-tech">Power BI · NHS data</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Patient Outcomes</h3>
-              <p class="project-desc">Readmission rates, length of stay and outcome metrics by pathway. Power BI · NHS data.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="vaccine-coverage" data-category="healthcare">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1584483766114-2cea6facdf57?w=600&q=80" alt="Vaccine coverage" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Vaccine Coverage</span>
-                <span class="project-overlay-desc">Immunisation uptake by region and demographic for public health.</span>
-                <span class="project-overlay-tech">Tableau · Flourish</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Vaccine Coverage</h3>
-              <p class="project-desc">Immunisation uptake by region and demographic for public health. Tableau · Flourish.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Geospatial: 3 more -->
-        <a href="#" class="project-card-link" data-project="regional-map" data-category="geospatial">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&q=80" alt="Regional map" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Regional Coverage Map</span>
-                <span class="project-overlay-desc">Service coverage and gaps across districts with demographic overlay.</span>
-                <span class="project-overlay-tech">QGIS · Tableau</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Regional Coverage Map</h3>
-              <p class="project-desc">Service coverage and gaps across districts with demographic overlay. QGIS · Tableau.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="flood-risk" data-category="geospatial">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=600&q=80" alt="Flood risk" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Flood Risk Zones</span>
-                <span class="project-overlay-desc">Flood hazard and exposure mapping for planning and insurance.</span>
-                <span class="project-overlay-tech">ArcGIS · Python</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Flood Risk Zones</h3>
-              <p class="project-desc">Flood hazard and exposure mapping for planning and insurance. ArcGIS · Python.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="transport-network" data-category="geospatial">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=600&q=80" alt="Transport network" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Transport Network</span>
-                <span class="project-overlay-desc">Routes, demand and capacity visualisation for urban transport.</span>
-                <span class="project-overlay-tech">Mapbox · Tableau</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Transport Network</h3>
-              <p class="project-desc">Routes, demand and capacity visualisation for urban transport. Mapbox · Tableau.</p>
-            </div>
-          </article>
-        </a>
-
-        <!-- Others: 2 more -->
-        <a href="#" class="project-card-link" data-project="annual-report" data-category="others">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1543286386-713bdd548da4?w=600&q=80" alt="Annual report" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">Annual Report Infographic</span>
-                <span class="project-overlay-desc">Key metrics and impact visualisations for an NGO annual report.</span>
-                <span class="project-overlay-tech">Illustrator · Tableau</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">Annual Report Infographic</h3>
-              <p class="project-desc">Key metrics and impact visualisations for an NGO annual report. Illustrator · Tableau.</p>
-            </div>
-          </article>
-        </a>
-        <a href="#" class="project-card-link" data-project="ngo-dashboard" data-category="others">
-          <article class="project-card">
-            <div class="project-visual">
-              <img class="project-img" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="NGO dashboard" />
-              <div class="project-hover-overlay">
-                <span class="project-overlay-title">NGO Programme Dashboard</span>
-                <span class="project-overlay-desc">Outputs, outcomes and beneficiary reach for programme teams.</span>
-                <span class="project-overlay-tech">Power BI · Commcare</span>
-              </div>
-            </div>
-            <div class="project-card-body">
-              <h3 class="project-title">NGO Programme Dashboard</h3>
-              <p class="project-desc">Outputs, outcomes and beneficiary reach for programme teams. Power BI · Commcare.</p>
-            </div>
-          </article>
-        </a>
-      </div>
-    </section>
-
-    <section class="testimonial">
-      <div class="testimonial-inner">
-        <blockquote class="testimonial-quote">
-          It's been great working with you, from the very first conversation scoping the project to delivering the final product. You were extremely quick to understand our objectives as well as our rather cumbersome dataset and you very much added to our initial thinking about what the viz can look like/be able to do. Communication was consistently clear and prompt, making the whole process very easy to manage for us. For what it's worth, I hope we get the chance to do more of this together in the future, as our plans develop.
-        </blockquote>
-        <footer class="testimonial-attribution">
-          <cite class="testimonial-name"><a href="#" rel="noopener">Tamara Baleanu</a></cite>
-          <p class="testimonial-role">Investment Manager at Impetus</p>
-        </footer>
-      </div>
-    </section>
-
-    <section class="blog-cta" id="blog">
-      <div class="blog-header">
-        <h2 class="blog-heading">Blog</h2>
-        <a href="#" class="blog-all-posts">ALL BLOG POSTS</a>
-      </div>
-      <div class="blog-posts">
-        <article class="blog-post">
-          <a href="#" class="blog-post-link">
-            <div class="blog-post-image-wrap">
-              <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&q=80" alt="" class="blog-post-image" />
-            </div>
-            <div class="blog-post-body">
-              <time class="blog-post-date" datetime="2024-01-15">15 Jan 2024</time>
-              <h3 class="blog-post-title">Getting started with APIs: REST vs GraphQL</h3>
-              <p class="blog-post-excerpt">A practical comparison of REST and GraphQL — when to use each and how to integrate them in your stack.</p>
-            </div>
-          </a>
-        </article>
-        <article class="blog-post">
-          <a href="#" class="blog-post-link">
-            <div class="blog-post-image-wrap">
-              <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80" alt="" class="blog-post-image" />
-            </div>
-            <div class="blog-post-body">
-              <time class="blog-post-date" datetime="2024-01-08">8 Jan 2024</time>
-              <h3 class="blog-post-title">Building a side project with AI tools in 2024</h3>
-              <p class="blog-post-excerpt">How to use Copilot, ChatGPT, and other AI assistants to ship faster without sacrificing code quality.</p>
-            </div>
-          </a>
-        </article>
-        <article class="blog-post">
-          <a href="#" class="blog-post-link">
-            <div class="blog-post-image-wrap">
-              <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80" alt="" class="blog-post-image" />
-            </div>
-            <div class="blog-post-body">
-              <time class="blog-post-date" datetime="2023-12-20">20 Dec 2023</time>
-              <h3 class="blog-post-title">Why your team should adopt TypeScript</h3>
-              <p class="blog-post-excerpt">Fewer bugs, better refactors, and clearer contracts. A short case for moving from JavaScript to TypeScript.</p>
-            </div>
-          </a>
-        </article>
-        <article class="blog-post">
-          <a href="#" class="blog-post-link">
-            <div class="blog-post-image-wrap">
-              <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&q=80" alt="" class="blog-post-image" />
-            </div>
-            <div class="blog-post-body">
-              <time class="blog-post-date" datetime="2023-12-05">5 Dec 2023</time>
-              <h3 class="blog-post-title">DevOps basics: CI/CD pipelines that actually work</h3>
-              <p class="blog-post-excerpt">From GitHub Actions to deployment — set up a simple pipeline so you ship with confidence.</p>
-            </div>
-          </a>
-        </article>
-      </div>
-      <div class="blog-content">
-        <div class="blog-left">
-          <h3 class="blog-coming">Coming soon</h3>
-          <p class="blog-text">
-            Want to learn what makes a data visualisation go from good to great? I am working on creating an online course and I think you will love it. Sign up here to be the first to hear about updates and access special early adopter offers.
-          </p>
-          <p class="blog-privacy">Your data belongs to you: I won't use your email for anything else and you can unsubscribe at any time.</p>
-          <form class="newsletter-form" action="#" method="post">
-            <label for="newsletter-email" class="blog-label">Email</label>
-            <input type="email" id="newsletter-email" name="email" placeholder="Email" required class="blog-input" />
-            <button type="submit" class="btn btn-blog">KEEP ME UPDATED</button>
+        <div class="contact-form-wrap">
+          <!-- FormSubmit.co: replace your@email.com with your email; confirm once via their link. Optional: set _next to your thank-you URL. -->
+          <form
+            class="contact-form"
+            action="https://formsubmit.co/your@email.com"
+            method="POST"
+            id="contact-form"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New message from your portfolio"
+            />
+            <input type="hidden" name="_next" value="#" />
+            <input
+              type="text"
+              name="_honey"
+              class="contact-honeypot"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+            />
+            <label for="contact-name" class="contact-label"
+              >Name <span class="required">*</span></label
+            >
+            <input
+              type="text"
+              id="contact-name"
+              name="name"
+              required
+              class="contact-input"
+            />
+            <label for="contact-email" class="contact-label"
+              >Email Address <span class="required">*</span></label
+            >
+            <input
+              type="email"
+              id="contact-email"
+              name="email"
+              required
+              class="contact-input"
+              placeholder="Your email"
+            />
+            <label for="contact-message" class="contact-label"
+              >Message <span class="required">*</span></label
+            >
+            <textarea
+              id="contact-message"
+              name="message"
+              rows="4"
+              required
+              class="contact-textarea"
+            ></textarea>
+            <p
+              class="contact-form-message"
+              id="contact-form-message"
+              aria-live="polite"
+            ></p>
+            <button type="submit" class="btn btn-send" id="contact-submit">
+              SEND
+            </button>
           </form>
         </div>
-        <div class="blog-image-wrap">
-          <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=700&q=80" alt="" class="blog-image" />
-        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <hr class="footer-line" />
+      <div class="footer-social">
+        <a
+          href="#"
+          class="footer-icon footer-icon--linkedin"
+          aria-label="LinkedIn"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+            />
+          </svg>
+        </a>
+        <a href="#" class="footer-icon footer-icon--github" aria-label="GitHub">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+            />
+          </svg>
+        </a>
       </div>
-      <hr class="blog-divider" />
-    </section>
+    </footer>
 
-    <section class="contact" id="contact">
-      <h2 class="contact-heading">Get in touch</h2>
-      <p class="contact-intro">Do you have a project I can help you with? Let's talk about it.</p>
-      <div class="contact-form-wrap">
-        <!-- FormSubmit.co: replace your@email.com with your email; confirm once via their link. Optional: set _next to your thank-you URL. -->
-        <form class="contact-form" action="https://formsubmit.co/your@email.com" method="POST" id="contact-form">
-          <input type="hidden" name="_subject" value="New message from your portfolio" />
-          <input type="hidden" name="_next" value="#" />
-          <input type="text" name="_honey" class="contact-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
-          <label for="contact-name" class="contact-label">Name <span class="required">*</span></label>
-          <input type="text" id="contact-name" name="name" required class="contact-input" />
-          <label for="contact-email" class="contact-label">Email Address <span class="required">*</span></label>
-          <input type="email" id="contact-email" name="email" required class="contact-input" placeholder="Your email" />
-          <label for="contact-message" class="contact-label">Message <span class="required">*</span></label>
-          <textarea id="contact-message" name="message" rows="4" required class="contact-textarea"></textarea>
-          <p class="contact-form-message" id="contact-form-message" aria-live="polite"></p>
-          <button type="submit" class="btn btn-send" id="contact-submit">SEND</button>
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <hr class="footer-line" />
-    <div class="footer-social">
-      <a href="#" class="footer-icon footer-icon--linkedin" aria-label="LinkedIn">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-      </a>
-      <a href="#" class="footer-icon footer-icon--github" aria-label="GitHub">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-      </a>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
